@@ -1,16 +1,7 @@
-# colour_picker
+# Delniit Colour Picker app
 
-A new Flutter project.
+![build](https://github.com/zarainia/delniit_dictionary/actions/workflows/build.yml/badge.svg)
 
-## Getting Started
+Cross-platform colour picker app, with outputs/pickers for [Delniit colour formats](https://delniit.netlify.app/colours.html), built with Flutter.
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![image](https://user-images.githubusercontent.com/14959769/208332410-ca44f1c4-5a8c-4967-88ea-7ded6e4e6051.png)
