@@ -18,9 +18,9 @@ dependencies:
   shared_preferences: any
   measured_size: any
   delniit_utils:
-    path: D:/Libraries/Desktop/Computer/Programming/Dart Modules/delniit_utils
+    git: https://github.com/Zarainia/delniit-utils-dart
   zarainia_utils:
-    path: D:/Libraries/Desktop/Computer/Programming/Dart Modules/zarainia_utils
+    git: https://github.com/Zarainia/zarainia-utils-dart
 
 dev_dependencies:
   flutter_test:
