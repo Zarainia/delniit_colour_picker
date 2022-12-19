@@ -1,0 +1,79 @@
+name: colour_picker
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.4 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_bloc: any
+  flutter_colorpicker: any
+  intersperse: any
+  gradients: any
+  shared_preferences: any
+  measured_size: any
+  delniit_utils:
+    path: D:/Libraries/Desktop/Computer/Programming/Dart Modules/delniit_utils
+  zarainia_utils:
+    path: D:/Libraries/Desktop/Computer/Programming/Dart Modules/zarainia_utils
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  import_sorter: any
+  change_app_package_name: any
+  msix: ^3.7.0
+  flutter_launcher_icons: any
+  flutter_launcher_name: any
+  flutter_automation: any
+
+flutter:
+  uses-material-design: true
+  fonts:
+    - family: TimesNewDelniit
+      fonts:
+        - asset: fonts/TimesNewDelniit.ttf
+
+import_sorter:
+  comments: false
+
+dependency_overrides:
+  yaml: ^3.1.0
+
+msix_config:
+  display_name: Colour Picker
+  publisher_display_name: Valliyv
+  identity_name: com.valliyv.colour-picker
+  msix_version: 1.0.0.0
+  logo_path: icons/colour_wheel.png
+  execution_alias: colour_picker
+  build_windows: false
+  certificate_path: windows/cert.pfx
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "icons/colour_wheel.png"
+  min_sdk_android: 21 # android min sdk min:16, default 21
+  adaptive_icon_background: "icons/colour_wheel.png"
+  adaptive_icon_foreground: icons/empty.png
+  web:
+    generate: true
+    image_path: "icons/colour_wheel.png"
+    background_color: "#hexcode"
+    theme_color: "#hexcode"
+  windows:
+    generate: true
+    image_path: "icons/colour_wheel.png"
+    icon_size: 256 # min:48, max:256, default: 48
+  macos:
+    generate: true
+    image_path: "icons/colour_wheel.png"
+
+flutter_launcher_name:
+  name: "Colour Picker"
