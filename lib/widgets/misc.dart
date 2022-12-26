@@ -123,7 +123,6 @@ class PlainDisplay extends StatelessWidget {
         ScaffoldMessenger.of(context).showSnackBar(SnackBar(content: Text("Copied to clipboard")));
       },
       constraints: const BoxConstraints(),
-      padding: EdgeInsets.zero,
     );
 
     return Container(

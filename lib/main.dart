@@ -1,3 +1,5 @@
+import 'dart:math';
+
 import 'package:flutter/material.dart';
 
 import 'package:flutter_bloc/flutter_bloc.dart';
@@ -71,7 +73,7 @@ class _MyHomePageState extends State<MyHomePage> {
             });
           },
         ),
-        toolbarHeight: appbar_selectors_height,
+        toolbarHeight: max(appbar_selectors_height, kToolbarHeight),
       ),
       body: SingleChildScrollView(
         child: Stack(

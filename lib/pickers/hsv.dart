@@ -94,7 +94,6 @@ class HSVPickerSettings extends StatelessWidget {
           ),
         ],
         shrinkWrap: true,
-        padding: EdgeInsets.zero,
       ),
     );
   }

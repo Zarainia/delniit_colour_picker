@@ -45,7 +45,6 @@ class DelniitDisplaySettings extends StatelessWidget {
           ),
         ],
         shrinkWrap: true,
-        padding: EdgeInsets.zero,
       ),
     );
   }

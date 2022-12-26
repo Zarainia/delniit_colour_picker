@@ -211,7 +211,6 @@ class RGBPickerSettings extends StatelessWidget {
           ),
         ],
         shrinkWrap: true,
-        padding: EdgeInsets.zero,
       ),
     );
   }

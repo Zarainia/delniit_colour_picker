@@ -19,7 +19,6 @@ class HSVDisplaySettings extends StatelessWidget {
           IncludeAlphaSetting(settings: settings),
         ],
         shrinkWrap: true,
-        padding: EdgeInsets.zero,
       ),
     );
   }
